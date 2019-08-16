@@ -4,121 +4,102 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 html, body {
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #e7ebf0;
 }
-
 .container {
     width: 100%;
     margin: auto;
 }
-
-.center {
-    display: flex;
-    justify-content: center;
-}
-
 .hide {
     display: none;
 }
+/*circle styles*/
 
-.menu {
-    background-color: white;
-    box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 40px;
-    position: relative;
-}
-
-.menu__right {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.menu__list {
-    list-style-type: none;
-    padding: 0;
-    height: 100%;
-    margin: 0;
-    margin-right: 40px;
-}
-
-.menu__list-item {
-    display: inline-block;
-    height: 100%;
-    margin-right: 20px;
-}
-
-.menu__list-item:last-child {
-    margin-right: 0;
-}
-
-.menu__link {
-    color: #3a3e47;
-    display: inline-block;
-    height: 100%;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    padding: 0 3px;
-}
-
-.menu__link:hover {
-    color: #F15025;
-}
-
-.menu__link--active {
-    color: #F15025;
-    border-top: 4px solid #F15025;
-    font-weight: 700;
-}
-
-.menu__logo {
-    text-indent: -9999999px;
-    display: inline-block;
-    height: 100%;
-    width: 92px;
-    background-size: cover 100%;
+#circle {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 800px;
+    height: 800px;
+    background-image: url(background.png);
     background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;
-}
-.menu__search-button {
-    height: 42px;
-    width: 42px;
-    border-radius: 50%;
-    border: 1px solid #c8c9ce;
-    background-color: transparent;
-    outline: none;
-    cursor: pointer;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 }
-
-.menu__search-form {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    padding: 10px;
-    background-color: white;
+#circle div {
+    width: 400px;
+    height: 400px;
 }
+.circle__topleft {
+    border-top-left-radius: 400px;
+    float: left;
+    color: transparent;
+    line-height: 400px;
+    text-align: center;
+}
+.circle__topleft:hover {
+    color: white;
+    transition: 0.5s;
+}
+.circle__topleft:active {
+    background-color: green;
+    transition: 0.5s;
 
-.menu__search-input {
-    outline: none;
-    border: 1px solid #c8c9ce;
-    font-size: 18px;
-    padding: 5px;
-    font-weight: 300;
+}
+.circle__topright {
+    border-top-right-radius: 400px;
+    float: right;
+    color: transparent;
+    line-height: 400px;
+    text-align: center;
+}
+.circle__topright:hover {
+    color: white;
+    transition: 0.5s;
+}
+.circle__topright:active {
+    background-color: red;
+    transition: 0.5s;
+}
+.circle__botleft {
+    border-bottom-left-radius: 400px;
+    float: left;
+    color: transparent;
+    line-height: 150px;
+    text-align: center;
+}
+.circle__botleft:hover {
+    color: white;
+    transition: 0.5s;
+}
+.circle__botleft:active {
+    background-color: yellow;
+    transition: 0.5s;
+}
+.circle__botright {
+    border-bottom-right-radius: 400px;
+    float: right;
+    color: transparent;
+    line-height: 150px;
+    text-align: center;
+}
+.circle__botright:hover {
+    color: white;
+    transition: 0.5s;
+}
+.circle__botright:active {
+    background-color: blue;
+    transition: 0.5s;
+}
+h4 {
+    font-size: 40px;
+}
+h3 {
+    margin: auto;
+    font-size: 30px;
 }
