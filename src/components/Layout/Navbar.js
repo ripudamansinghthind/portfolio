@@ -4,8 +4,8 @@ import '../css/Navbar.css'
 const Navbar = (props) => {
   
   return (
-    <div class="navbar">
-        <a class="active" href="#">Home</a>
+    <div className="navbar">
+        <a className="active" href="#">Home</a>
         <a href="#">Profile</a>
         <a href="#">Experience</a>
         <a href="#">Projects</a>
