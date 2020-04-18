@@ -33,16 +33,7 @@ const Navbar = (props) => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              activeClass="active"
-              to="Projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Projects
-            </Link>
+            <a href="https://github.com/ripudamansinghthind">Projects</a>
           </li>
           <li className="nav-item">
             <Link

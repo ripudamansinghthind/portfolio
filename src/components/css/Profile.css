@@ -16,8 +16,10 @@
 }
 
 img {
+  transform: rotate(90deg);
     display: inline;
-    margin-left: -55%;
+    margin-left: -16.5%;
+    margin-top: 17%;
     height: 100%;
     width: auto;
 }

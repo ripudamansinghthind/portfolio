@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Profile.css'
-import Img from '../resources/Felix3.jpeg'
+import Img from '../resources/FelixThind.jpg'
 
 const Profile = (props) => {
   return (
@@ -8,7 +8,7 @@ const Profile = (props) => {
     <div class="image-cropper">
       <img src={ Img } alt = "My portfolio pic"/>
       </div>
-      <h1>Ripudaman Thind</h1>
+      <h1>Felix Thind</h1>
       <p class="title">Software Developer</p>
       <p>4th Year Computing Science student at Thompson Rivers University</p>
       <p>I like to learn and develop the most random stuff</p>
