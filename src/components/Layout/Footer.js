@@ -10,7 +10,7 @@ const Foot = (props) => {
             style = {{textAlign: "center", marginTop: "200px"}}
             columns={[
                 {
-                title: 'Link Up',
+                title: 'Wanna know more?',
                 openExternal: true,
                 items: [
                         {

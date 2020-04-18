@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Navbar.css'
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import Resume from '../resources/Resume.pdf'
 const Navbar = (props) => {
   
   return (
@@ -33,7 +33,10 @@ const Navbar = (props) => {
             </Link>
           </li>
           <li className="nav-item">
-            <a href="https://github.com/ripudamansinghthind">Projects</a>
+            <a href="https://github.com/ripudamansinghthind" target="_blank">Projects</a>
+          </li>
+          <li className="nav-item">
+            <a href={ Resume } target="_blank" >Resume</a>
           </li>
           <li className="nav-item">
             <Link

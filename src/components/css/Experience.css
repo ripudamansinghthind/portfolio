@@ -1,5 +1,26 @@
-.body {
-    background-color: none;
-    padding: 0 20% !important;
-}
+.experience-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+  }
 
+  .experience-card h1 {
+      padding-top: 30px;
+  }
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+  p {
+      font-size: 15px;
+  }
