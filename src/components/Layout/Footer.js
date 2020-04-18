@@ -5,8 +5,8 @@ import 'rc-footer/assets/index.css';
 
 const Foot = (props) => {
   return (
-    <div id="#footer">
-        <Footer
+    <div id="footer">
+        <Footer Link to="section1"
             style = {{textAlign: "center", marginTop: "200px"}}
             columns={[
                 {

@@ -4,7 +4,7 @@ import Img from '../resources/Felix3.jpeg'
 
 const Profile = (props) => {
   return (
-    <div class="card">
+    <div class="card" id="Profile">
     <div class="image-cropper">
       <img src={ Img } alt = "My portfolio pic"/>
       </div>

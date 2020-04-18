@@ -18,7 +18,7 @@ function App() {
   return (
     <div id = "container-center" style = {{backgroundColor: "white"}}>
         <Navbar />
-        <Profile />
+        <Profile/>
         <Experience />
         <Footer />
     </div>
