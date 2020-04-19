@@ -11,7 +11,8 @@ const Experience = (props) => {
       <div class="row">
         <div className="column-1">
           <h3>Junior Software Developer </h3>
-          <p>[Jan 2020 - April 2020]</p>
+          <p>Swartz Software Development (Kamloops, BC)</p>
+          <p>Jan 2020 - April 2020</p>
         </div>
       <div className="column-2">
       <p>• Developed Mobile Application Prototypes for both iOS and Android using React Native with TypeScript</p>
@@ -21,8 +22,9 @@ const Experience = (props) => {
       </div>
       <div class="row">
         <div className="column-1">
-      <h3>Software Developer Co-op </h3>
-        <p>[May 2019 - Dec 2019]</p>
+      <h3>Software Developer Co-op</h3>
+      <p>USNR (Salmon Arm)</p>
+        <p>May 2019 - Dec 2019</p>
           </div>
           <div className="column-2">
           <p>• Assisted in requirement gathering, design, development and documentation for various enterprise software</p>
@@ -35,7 +37,8 @@ const Experience = (props) => {
           <div class="row">
         <div className="column-1">
         <h3>Research Assistant </h3>
-        <p>[Jan 2019 - April 2019]</p>
+        <p>TRU (Kamloops, BC)</p>
+        <p>Jan 2019 - April 2019</p>
           </div>
           <div className="column-2">
           <p>• Upgraded the scripts being used by the professor from Perl to Python</p>
@@ -46,7 +49,8 @@ const Experience = (props) => {
           <div class="row">
         <div className="column-1">
         <h3>Teaching Assistant</h3>
-        <p>[Sept 2018 - Dec 2018]</p>
+        <p>TRU (Kamloops, BC)</p>
+        <p>Sept 2018 - Dec 2018</p>
           </div>
           <div className="column-2">
           <p>• [Python and C#] Assisted the professor with managing evaluations of course assignments, quizzes and development of feedback</p>
@@ -57,7 +61,8 @@ const Experience = (props) => {
           <div class="row">
         <div className="column-1">
         <h3>Cashier</h3>
-        <p>[April 2018 - Jan 2019]</p>
+        <p>Walmart (Kamloops, BC)</p>
+        <p>April 2018 - Jan 2019</p>
           </div>
           <div className="column-2">
           <p>• Gained people skills by processing people’s transactions and providing good customer service</p>
