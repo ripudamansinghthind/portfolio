@@ -1,12 +1,18 @@
+.navbar {
+  margin-bottom: 80px;
+}
+
 .nav-content {
   display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .nav-items {
   list-style: none;
-  padding-bottom: 30px;
   }
+.nav-items:hover {
+  font-size: 16px;
+}
 
 .nav-item {
   display: inline;
@@ -14,6 +20,19 @@
   font-size: 20px;
 }
 
+.contact-us-nav-item {
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+
 .nav-item:hover {
-  background-color: #E56700;
+  transition: 0.5s;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  border-bottom: 2px solid #DB2A20;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: black;
 }

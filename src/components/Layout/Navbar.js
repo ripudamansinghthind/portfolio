@@ -15,7 +15,7 @@ const Navbar = (props) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={1500}
             >
               Profile
             </Link>
@@ -27,7 +27,7 @@ const Navbar = (props) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={1500}
             >
               Experience
             </Link>
@@ -45,7 +45,7 @@ const Navbar = (props) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}
+              duration={1500}
             >
               Contact Me
             </Link>
