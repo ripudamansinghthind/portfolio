@@ -4,18 +4,21 @@ import Img from '../resources/FelixThind.jpg'
 
 const Profile = (props) => {
   return (
-    <div class="card" id="Profile">
-      <div class="row-card">
+    <div className="card" id="Profile">
+      <div className="row-card">
         <div className="column-1-card">
-          <div class="image-cropper">
+          <div className="image-cropper">
             <img src={ Img } alt = "My portfolio pic"/>
             </div>
           <h1>Ripudaman Thind</h1>
-          <p class="title">Software Developer | Student | Thompson Rivers University</p>
+          <p className="title">Software Developer | Student | Thompson Rivers University</p>
         </div>   
         <div className="column-2-card">
-          <h1>Who I am?</h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <h1>Nice to meet you!</h1>
+          <p>Friends call me Rip or Felix, cuz saying Ripudaman is a bit hard</p>
+          <p>I am a 4th year Bachelor of Computer Science student at TRU in Kamloops, BC.</p>
+          <p>Well, you can visit the other links I have on here to know more about me</p>
+          <p>I love talking about projects, your projects, my projects, all projects so hit me up on my socials and we can discuss whatever you want to discuss</p>
         </div>
       </div>
     </div>

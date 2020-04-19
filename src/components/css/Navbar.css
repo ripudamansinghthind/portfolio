@@ -10,9 +10,6 @@
 .nav-items {
   list-style: none;
   }
-.nav-items:hover {
-  font-size: 16px;
-}
 
 .nav-item {
   display: inline;
@@ -27,7 +24,7 @@
 }
 
 .nav-item:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   border-bottom: 2px solid #DB2A20;
 }

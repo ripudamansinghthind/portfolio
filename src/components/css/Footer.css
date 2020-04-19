@@ -12,3 +12,13 @@
 .social-images a {
     margin: 10px 20px;
 }
+
+.footer-para-text {
+    font-size: 9px;
+    margin-top: 20px;
+}
+
+.image-socials:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+}

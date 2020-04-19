@@ -6,7 +6,6 @@ const Experience = (props) => {
     <div class="experience-card" id="Profile">
       <div className="Experience-header">
           <h1 id = "Experience">Experience</h1>
-          <p class="title">1+ Year of Industry Experience</p>
       </div>
       <div class="row">
         <div className="column-1">
