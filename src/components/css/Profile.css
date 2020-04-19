@@ -1,6 +1,7 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    min-width: 1000px;
+    width: 50%;
     margin: auto;
     text-align: center;
     padding-bottom: 30px;
@@ -36,4 +37,22 @@ img {
 
   p {
       font-size: 15px;
+  }
+
+  .row-card {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .column-1-card {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+  .column-2-card {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-left: 1px rgba(0, 0, 0, 0.2) solid;
   }
