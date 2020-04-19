@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 // import Navbar
 import Navbar from './components/Layout/Navbar.js'
 // importing bootstrap
@@ -19,7 +17,6 @@ function App() {
     <div id = "container-center" style = {{backgroundColor: "white"}}>
         <Navbar />
         <Profile/>
-        <Experience />
         <Footer />
     </div>
   );

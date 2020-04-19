@@ -55,4 +55,5 @@ img {
     width: 50%;
     padding: 10px;
     border-left: 1px rgba(0, 0, 0, 0.2) solid;
+    margin: auto;
   }
