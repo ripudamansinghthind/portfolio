@@ -1,13 +1,13 @@
 .experience-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px rgba(0, 0, 0, 0.2) solid;
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    box-sizing: border-box;
   }
 .Experience-header {
   padding-bottom: 30px;
-  box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+  border-bottom: 1px #DB2A20 solid;
 }
   .row {
     display: flex;
