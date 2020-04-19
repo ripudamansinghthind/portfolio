@@ -1,39 +1,21 @@
 import React from 'react';
-// import rc-footer
-import Footer from 'rc-footer';
-import 'rc-footer/assets/index.css';
+import '../css/Footer.css'
+import FbImage from '../resources/facebook.png'
+import InstaImage from '../resources/instagram.png'
+import LinkedInImage from '../resources/linked.png'
 
 const Foot = (props) => {
   return (
-    <div id="footer">
-        <Footer Link to="section1"
-            style = {{textAlign: "center", marginTop: "200px"}}
-            columns={[
-                {
-                title: 'Wanna know more?',
-                openExternal: true,
-                items: [
-                        {
-                            title: 'Facebook',
-                            url: 'https://www.facebook.com/profile.php?id=100006921404837',
-                           openExternal: true,
-                        },
-                        {
-                            title: 'LinkedIn',
-                            url: 'https://www.linkedin.com/in/ripudamanthind/',
-                            openExternal: true,
-                        },
-                        {
-                            title: 'GitHub',
-                            url: 'https://github.com/ripudamansinghthind',
-                            openExternal: true,
-                        },
-                    ],
-                },
-            ]}
-            bottom="Business Email: ripudamansinghthind@gmail.com"
-        />
+    <div className="footer">
+        <div className="Footer-heading">
+            <h1>Socials</h1>
+            <div className="social-images">
+                <img className="image-socials" src={ FbImage } alt = "Social Fb link"/>
+                <img className="image-socials" src={ InstaImage } alt = "Social Insta Link"/>
+                <img className="image-socials" src={ LinkedInImage } alt = "Social LinkedIn Link"/>
+            </div>
         </div>
+    </div>
     );
 }
     

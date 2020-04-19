@@ -1,0 +1,11 @@
+.footer {
+    min-height: 200px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 10px;
+}
+
+.image-socials {
+    margin: 20px 10px;
+    height: 40px;
+}
