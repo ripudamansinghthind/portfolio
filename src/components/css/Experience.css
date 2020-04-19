@@ -3,7 +3,6 @@
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    margin-bottom: 100px;
     box-sizing: border-box;
   }
 .Experience-header {
@@ -12,7 +11,6 @@
 }
   .row {
     display: flex;
-    box-shadow: 0px 0.5px 0px rgba(0,0,0,0.2);
     margin: 0 auto;
     padding: 20px;
   }
@@ -28,6 +26,7 @@
     width: 75%;
     padding: 10px;
     Text-align: left;
+    border-left: 1px rgba(0, 0, 0, 0.2) solid;
   }
   .experience-card h1 {
       padding-top: 30px;

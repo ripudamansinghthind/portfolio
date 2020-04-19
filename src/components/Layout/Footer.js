@@ -7,8 +7,6 @@ import LinkedInImage from '../resources/linked.png'
 const Foot = (props) => {
   return (
     <div className="footer">
-        <div className="Footer-heading">
-            <h1>Socials</h1>
             <div className="social-images">
                 <a href="https://www.facebook.com/profile.php?id=100006921404837" target="_blank">
                 <img src={ FbImage } className="image-socials" alt = "Fb social link"/></a>
@@ -17,7 +15,6 @@ const Foot = (props) => {
                 <a href="https://www.linkedin.com/in/ripudamanthind/" target="_blank">
                 <img src={ LinkedInImage } className="image-socials" alt = "LinkedIn social link"/></a>
             </div>
-        </div>
     </div>
     );
 }
