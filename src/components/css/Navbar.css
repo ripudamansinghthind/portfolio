@@ -1,5 +1,7 @@
 .navbar {
-  margin-top: 100px;
+  margin-top: 70px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .nav-content {
@@ -7,26 +9,24 @@
   margin: 0 auto;
 }
 
-.nav-items {
-  list-style: none;
-  }
-
 .nav-item {
-  display: inline;
-  padding: 20px;
+  display: inline-block;
   font-size: 20px;
 }
 
-.contact-us-nav-item {
-  display: inline;
-  padding: 20px;
-  font-size: 20px;
+.clickyButton {
+  padding: 20px 30px;
+}
+
+.clickyButton:hover {
+  transition: 1s;
+  font-size: 18px;
+  border-bottom: 1px #DB2A20 solid;
 }
 
 .nav-item:hover {
-  transition: 0.3s;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-  border-bottom: 2px solid #DB2A20;
+  transition: 0.3s;
 }
 
 .nav-item a:hover {

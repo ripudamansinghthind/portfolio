@@ -10,10 +10,12 @@ import Experience from './components/Layout/Experience.js';
 import FetchGitHub from './components/Layout/FetchGitHub.js'
 // import Footer component
 import Footer from './components/Layout/Footer'
+//import Resume component
+// import Resume from './components/Layout/Resume'
+import Resume from './components/resources/Resume.pdf'
 
 
 import './components/css/Navbar.css'
-import Resume from './components/resources/Resume.pdf'
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,19 +30,32 @@ function App() {
     <nav className="navbar" id="navbar">
       <div className="nav-content">
         <ul className="nav-items">
-        <li className="nav-item">
-            <Link to="/">Profile</Link>
-          </li>
-        <li className="nav-item">
-            <Link to="/Experience">Experience</Link>
-          </li>
-          <li className="nav-item">
-            <a href="https://github.com/ripudamansinghthind" target="_blank">Projects</a>
-            {/* <Link to="/Projects">Projects</Link> */}
-          </li>
-          <li className="nav-item">
-            <a href={ Resume } target="_blank" >Resume</a>
-          </li>
+            <li className="nav-item">
+              <Link to="/">
+              <div className="clickyButton">Profile
+              </div>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/Experience">
+              <div className="clickyButton">Experience
+              </div>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/Projects">
+              <div className="clickyButton">Projects
+              </div>
+              </Link>
+            </li>
+            <li className="nav-item">
+              {/* <Link to="/Resume">
+                  <div className="clickyButton">Resume</div>
+                </Link> */}
+                <a href={ Resume } target="_blank" >
+              <div className="clickyButton">Resume
+              </div></a>
+            </li>
         </ul>
       </div>
   </nav>
@@ -51,8 +66,11 @@ function App() {
             <Route path="/Experience">
               <Experience />
             </Route>
-            {/* <Route path="/Projects">
+            <Route path="/Projects">
               <FetchGitHub />
+            </Route>
+            {/* <Route path="/Resume">
+              <Resume />
             </Route> */}
           </Switch>
   </Router>

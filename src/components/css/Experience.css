@@ -2,46 +2,47 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border: 1px rgba(0, 0, 0, 0.2) solid;
     max-width: 1000px;
-    margin: auto;
+    min-width: 1000px;
+    margin: 0 auto;
     text-align: center;
   }
 .Experience-header {
   padding-bottom: 30px;
   border-bottom: 1px #DB2A20 solid;
 }
-  .row {
-    display: flex;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .column-1 {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-  .column-2 {
-    float: left;
-    width: 75%;
-    padding: 10px;
-    Text-align: left;
-    border-left: 1px rgba(0, 0, 0, 0.2) solid;
-  }
-  .experience-card h1 {
-      padding-top: 30px;
-  }
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-  }
+.row {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+}
+.column-1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.column-2 {
+  float: left;
+  width: 75%;
+  padding: 10px;
+  Text-align: left;
+  border-left: 1px rgba(0, 0, 0, 0.2) solid;
+}
+.experience-card h1 {
+    padding-top: 30px;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
 
-  p {
-      font-size: 15px;
-  }
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+p {
+    font-size: 15px;
+}

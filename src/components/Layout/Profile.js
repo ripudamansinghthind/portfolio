@@ -17,7 +17,6 @@ const Profile = (props) => {
           <h1>Nice to meet you!</h1>
           <p>Friends call me Rip or Felix, cuz saying Ripudaman is a bit hard</p>
           <p>I am a 4th year Bachelor of Computer Science student at TRU in Kamloops, BC.</p>
-          <p>Well, you can visit the other links I have on here to know more about me</p>
           <p>I love talking about projects, your projects, my projects, all projects so hit me up on my socials and we can discuss whatever you want to discuss</p>
         </div>
       </div>

@@ -21,3 +21,17 @@
     transform: scale(1.5);
     transition: transform 0.3s ease-in-out;
 }
+
+.footer-a {
+    font-size: 9px;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-decoration: underline;
+}
+
+.footer-a:hover {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 1s;
+}
