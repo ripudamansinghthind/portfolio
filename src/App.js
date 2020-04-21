@@ -7,7 +7,7 @@ import Profile from './components/Layout/Profile.js';
 // import Experience component
 import Experience from './components/Layout/Experience.js';
 // import Projects component
-import Projects from './components/Layout/Projects.js'
+import FetchGitHub from './components/Layout/FetchGitHub.js'
 // import Footer component
 import Footer from './components/Layout/Footer'
 
@@ -36,6 +36,7 @@ function App() {
           </li>
           <li className="nav-item">
             <a href="https://github.com/ripudamansinghthind" target="_blank">Projects</a>
+            {/* <Link to="/Projects">Projects</Link> */}
           </li>
           <li className="nav-item">
             <a href={ Resume } target="_blank" >Resume</a>
@@ -50,6 +51,9 @@ function App() {
             <Route path="/Experience">
               <Experience />
             </Route>
+            {/* <Route path="/Projects">
+              <FetchGitHub />
+            </Route> */}
           </Switch>
   </Router>
   <Footer />
