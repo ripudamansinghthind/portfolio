@@ -49,16 +49,18 @@
   }
   .nav-items {
     margin: 0;
-    padding: 0;
+    padding: 0 4.8%;
   }
   
   .nav-item {
     margin: 0;
-    padding: 0;
+    padding: 0 auto;
     display: table-cell;
   }
   
   .clickyButton {
+    margin: 0;
+    padding: 0 auto;
     border-left: 1px rgba(158, 95, 95, 0.5) solid;
   }
   
@@ -77,6 +79,6 @@
     color: black;
   }
   a {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
