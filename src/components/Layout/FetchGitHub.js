@@ -44,7 +44,7 @@ export default class FetchGitHub extends React.Component {
                             </div>
                             <div className = "experience-column-2">
                             {this.state.descriptions.get(repo) !== null && (
-                                <h5>{this.state.descriptions.get(repo)}</h5>
+                                <h5 className="Projects-desc">{this.state.descriptions.get(repo)}</h5>
                             )}
                             </div>
                         </div>
