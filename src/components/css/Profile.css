@@ -62,6 +62,8 @@ img {
       min-width: 350px;
       max-width: 350px;
       text-align: center;
+      font-size: 5px;
+      margin: 0 auto;
       padding-bottom: 0;
     }
     .image-cropper {
