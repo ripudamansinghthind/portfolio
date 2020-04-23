@@ -52,7 +52,7 @@ function App() {
               {/* <Link to="/Resume">
                   <div className="clickyButton">Resume</div>
                 </Link> */}
-                <a href={ Resume } target="_blank" >
+                <a href={ Resume } target="_blank" rel="noopener noreferrer">
               <div className="clickyButton">Resume
               </div></a>
             </li>

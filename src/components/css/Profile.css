@@ -54,3 +54,41 @@ img {
     padding: 10px;
     margin: auto;
   }
+
+  @media only screen and (max-width: 768px) {
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border: 1px rgba(0, 0, 0, 0.2) solid;
+      min-width: 350px;
+      max-width: 350px;
+      text-align: center;
+      padding-bottom: 0;
+    }
+    .image-cropper {
+      position: relative;
+      overflow: hidden;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      padding-top: 0;
+      margin: 0 auto;
+  }
+  .row-card {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .column-1-card {
+    position: relative;
+    width: 100%;
+    border-right: none;
+    padding: 0;
+    border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+  }
+  .column-2-card {
+    position: relative;
+    margin: auto;
+    width: 100%
+  }
+
+  }

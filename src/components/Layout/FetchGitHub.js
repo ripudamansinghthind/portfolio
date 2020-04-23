@@ -2,6 +2,8 @@ import React from "react";
 
 import GitHubImage from '../resources/github.png'
 
+import '../css/FetchGitHub.css'
+
 export default class FetchGitHub extends React.Component {
 
     state = {
@@ -17,7 +19,6 @@ export default class FetchGitHub extends React.Component {
         const data = await response.json();
         let fullnames = []
         let descriptions = new Map();
-        console.log(data)
         data.forEach(repo => {
             const name = repo.name;
             fullnames.push(name)
@@ -32,20 +33,18 @@ export default class FetchGitHub extends React.Component {
                 <div className='card'>
                 <div className="Experience-header">
                     <h1>Projects</h1>
-                    <h3>This section is undergoing changes. Checkout my GitHub for now instead</h3>
-                    <h1>:)</h1>
                     <a href="https://github.com/ripudamansinghthind" target="_blank" rel="noopener noreferrer">
-                <img src={ GitHubImage } className="image-socials" alt = "GitHub social link"/></a>
+                <img src={ GitHubImage } className="image-socials-github-projects" alt = "GitHub social link"/></a>
                 </div>
                 {
                     this.state.names.map((repo, index) => (
                         <div key={index}>
-                            <div className = "column-1">
-                                <h1>{repo}</h1>
+                            <div className = "experience-column-1">
+                                <h3>{repo}</h3>
                             </div>
-                            <div className = "column-2">
+                            <div className = "experience-column-2">
                             {this.state.descriptions.get(repo) !== null && (
-                                <p>{this.state.descriptions.get(repo)}</p>
+                                <h5>{this.state.descriptions.get(repo)}</h5>
                             )}
                             </div>
                         </div>

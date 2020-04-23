@@ -1,0 +1,26 @@
+.image-socials-github-projects {
+    margin: 10px 0;
+    height: 40px;
+}
+
+.image-socials-github-projects:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+    }
+
+@media only screen and (max-width: 768px) {
+
+    .image-socials-github-projects {
+        margin: 10px 0;
+        height: 40px;
+    }
+
+    .image-socials-github-projects:hover {
+        transform: scale(1.5);
+        transition: transform 0.3s ease-in-out;
+        }
+    
+    p {
+        font-size: 13px;
+    }
+}

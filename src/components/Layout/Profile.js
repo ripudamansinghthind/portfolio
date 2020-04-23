@@ -11,13 +11,13 @@ const Profile = (props) => {
             <img src={ Img } alt = "My portfolio pic"/>
             </div>
           <h1>Ripudaman Thind</h1>
-          <p className="title">Software Developer | Student | Thompson Rivers University</p>
+          <p className="title">| Software Developer | Thompson Rivers University | GPA: 3.31 | 4th Year | Kamloops, BC |</p>
         </div>   
         <div className="column-2-card">
-          <h1>Nice to meet you!</h1>
-          <p>Friends call me Rip or Felix, cuz saying Ripudaman is a bit hard</p>
-          <p>I am a 4th year Bachelor of Computer Science student at TRU in Kamloops, BC.</p>
-          <p>I love talking about projects, your projects, my projects, all projects so hit me up on my socials and we can discuss whatever you want to discuss</p>
+          <h3>Nice to meet you!</h3>
+          <p>I also go by Felix</p>
+          <p>I like long boarding, collecting fountain pens, video games, spending an absurd amount of time on simple projects, etc</p>
+          <p>Feel free to hit me up on my socials!</p>
         </div>
       </div>
     </div>
