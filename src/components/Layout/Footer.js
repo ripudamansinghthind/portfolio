@@ -20,7 +20,7 @@ const Foot = (props) => {
                 <img src={ FbImage } className="image-socials" alt = "Fb social link"/></a>
                 <a href="https://www.instagram.com/rstgt/" target="_blank" rel="noopener noreferrer">
                 <img src={ InstaImage } className="image-socials" alt = "Instagram social link"/></a>
-                <p className = "footer-para-text">This website is maintained on my <a href="https://github.com/ripudamansinghthind/portfolio-website" className="footer-a" target="_blank" rel="noopener noreferrer">My professional Gmail</a></p>
+                <p className = "footer-para-text">This website is maintained on my <a href="https://github.com/ripudamansinghthind/portfolio-website" className="footer-a" target="_blank" rel="noopener noreferrer">GitHub</a></p>
             </div>
     </div>
     );
