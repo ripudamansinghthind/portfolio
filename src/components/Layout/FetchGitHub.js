@@ -35,6 +35,8 @@ export default class FetchGitHub extends React.Component {
                     <h1>Projects</h1>
                     <a href="https://github.com/ripudamansinghthind" target="_blank" rel="noopener noreferrer">
                 <img src={ GitHubImage } className="image-socials-github-projects" alt = "GitHub social link"/></a>
+                <h5>Work in progress</h5>
+                <h5>This page only fetches my project names and descriptions from GitHub rn (click the github logo above)</h5>
                 </div>
                 {
                     this.state.names.map((repo, index) => (
