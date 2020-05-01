@@ -64,8 +64,8 @@ const Experience = (props) => {
               <p>April 2018 - Jan 2019</p>
             </div>
             <div className="experience-column-2">
-              <p>• [Python and C#] Assisted the professor with managing evaluations of course assignments, quizzes and development of feedback</p>
-              <p>• Tutored students who needed extra help outside classroom hours</p></div>
+              <p>• Gained people skills by processing people’s transactions and providing good customer service</p>
+              </div>
           </div>
       </div>
   );
