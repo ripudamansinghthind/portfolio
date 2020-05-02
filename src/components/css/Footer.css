@@ -35,3 +35,9 @@
     color: black;
     transition: 1s;
 }
+
+@media only screen and (max-width: 768px) {
+    .social-images a {
+        margin: 10px 10px;
+    }
+}
