@@ -18,7 +18,7 @@ export default class FetchGitHub extends React.Component {
                                 <h3>Calculator</h3>
                             </div>
                             <div className = "projects-column-2">
-                              <h4>My first React Native App that I made for a tech interview and successfully got the job</h4>
+                              <p>My first React Native App that I made for a tech interview and successfully got the job</p>
                               <br />
                             <p>Frameworks, Libraries, Languages:</p>
                             <div className="tech-skills">
@@ -37,7 +37,7 @@ export default class FetchGitHub extends React.Component {
                                 <h3>Portfolio Website</h3>
                             </div>
                             <div className = "projects-column-2">
-                              <h4>This portfolio website hosted here.</h4>
+                              <p>This portfolio website hosted here.</p>
                               <br />
                             <p>Frameworks, Libraries, Languages:</p>
                             <div className="tech-skills">
@@ -56,7 +56,7 @@ export default class FetchGitHub extends React.Component {
                                 <h3>Pathfinding Algorithm Visualization</h3>
                             </div>
                             <div className = "projects-column-2">
-                              <h4>Work in progress</h4>
+                              <p>Work in progress</p>
                               <br />
                             <p>Frameworks, Libraries, Languages:</p>
                             <div className="tech-skills">
@@ -73,7 +73,7 @@ export default class FetchGitHub extends React.Component {
                                 <h3>Sorting Algorithms Visualization</h3>
                             </div>
                             <div className = "projects-column-2">
-                              <h4>Work in progress</h4>
+                              <p>Work in progress</p>
                               <br />
                             <p>Frameworks, Libraries, Languages:</p>
                             <div className="tech-skills">
