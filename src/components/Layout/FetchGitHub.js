@@ -30,7 +30,7 @@ export default class FetchGitHub extends React.Component {
     render() {
         return (
             <div className='repos'>
-                <div className='card'>
+                <div className='fetch-card'>
                 <div className="Experience-header">
                     <h1>Projects</h1>
                     <a href="https://github.com/ripudamansinghthind" target="_blank" rel="noopener noreferrer">
@@ -40,11 +40,11 @@ export default class FetchGitHub extends React.Component {
                 </div>
                 {
                     this.state.names.map((repo, index) => (
-                        <div key={index}>
-                            <div className = "experience-column-1">
+                        <div key={index} className="fetch-row">
+                            <div className = "fetch-column-1">
                                 <h3>{repo}</h3>
                             </div>
-                            <div className = "experience-column-2">
+                            <div className = "fetch-column-2">
                             {this.state.descriptions.get(repo) !== null && (
                                 <h5 className="Projects-desc">{this.state.descriptions.get(repo)}</h5>
                             )}

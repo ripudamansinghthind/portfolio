@@ -1,27 +1,19 @@
 import React from 'react';
-// import Navbar
-// importing bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Profile component
-import Profile from './components/Layout/Profile.js';
-// import Experience component
-import Experience from './components/Layout/Experience.js';
-// import Projects component
-import FetchGitHub from './components/Layout/FetchGitHub.js'
-// import Footer component
-import Footer from './components/Layout/Footer'
-//import Resume component
-// import Resume from './components/Layout/Resume'
-import Resume from './components/resources/Resume.pdf'
-
-
-import './components/css/Navbar.css'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+// import components
+import Profile from './components/Layout/Profile.js';
+import Experience from './components/Layout/Experience.js';
+import Projects from './components/Layout/Projects';
+import Footer from './components/Layout/Footer';
+import Resume from './components/resources/Resume.pdf';
+import './components/css/Navbar.css'
+
 
 function App() {
   return (
@@ -67,7 +59,7 @@ function App() {
               <Experience />
             </Route>
             <Route path="/Projects">
-              <FetchGitHub />
+              <Projects />
             </Route>
             {/* <Route path="/Resume">
               <Resume />
