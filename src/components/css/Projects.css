@@ -47,3 +47,27 @@
     transform: scale(1);
     transition: 0.5s;
 }
+@media only screen and (max-width: 768px) {
+  .projects-row {
+    display: inline;
+}
+
+.projects-column {
+    width: 100%;
+    padding: 0 40px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
+.projects-column-1 {
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px #DB2A20 solid;
+}
+
+.projects-column-2 {
+  padding-top: 10px;
+}
+}
