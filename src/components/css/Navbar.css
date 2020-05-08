@@ -39,8 +39,6 @@
   .navbar {
     width: 100%;
     font-size: 8px !important;
-    margin: 0;
-    padding: 0 auto;
   }
   
   .nav-content {  /* Allow the centering to work */
@@ -80,5 +78,11 @@
   }
   a {
     font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+    margin: 0 auto;
+    padding: 0 auto;
   }
 }
