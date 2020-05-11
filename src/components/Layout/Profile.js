@@ -11,7 +11,7 @@ const Profile = (props) => {
             <img src={ Img } alt = "My portfolio pic"/>
             </div>
           <h1>Ripudaman Thind</h1>
-          <p className="title">| Software Developer | Thompson Rivers University | GPA: 3.31 | 4th Year | Kamloops, BC |</p>
+          <p className="title">| Software Developer | Thompson Rivers University | GPA: 3.36 | 4th Year | Kamloops, BC |</p>
         </div>   
         <div className="column-2-card">
           <h3>Nice to meet you!</h3>
