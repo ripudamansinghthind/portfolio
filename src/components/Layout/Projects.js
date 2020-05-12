@@ -10,7 +10,7 @@ export default class FetchGitHub extends React.Component {
                 <div className='card'>
                 <div className="projects-header">
                     <h1>Projects</h1>
-                    <p>I have many more projects I constantly work on hosted on my GitHub but these are just the ones that I feel proud of are completed imo.</p>
+                    <p>I have many more projects I constantly work on hosted on my GitHub but these are just the ones that I feel are cool or ongoing</p>
                 </div>
                 <div className="projects-row">
                 <div className="projects-column">
