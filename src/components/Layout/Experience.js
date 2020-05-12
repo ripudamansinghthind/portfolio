@@ -27,9 +27,8 @@ const Experience = (props) => {
           </div>
           <div className="experience-column-2">
           <p>• Led the design and development of neural networks for species detection of wood improving the results from 56% to 94%</p>
-      <p>• Assisted in requirement gathering, design, development, and documentation for various AI projects using cntk (Python) to further enhance the defect detection products in the forestry industry</p>
-      <p>• Did hands-on work with bioluma sensors to understand and improve how data was being collected and used for various neural networks across the company</p>
-      <p>• Did hands-on work with bioluma laser sensors to understand and improve how data was being collected and used for various neural networks across the company</p>
+          <p>• Assisted in requirement gathering, design, development, and documentation for various AI projects using cntk (Python) to further enhance the defect detection products in the forestry industry</p>
+          <p>• Did hands-on work with bioluma sensors to understand and improve how data was being collected and used for various neural networks across the company</p>
           </div>
           </div>
           <div className="row">
