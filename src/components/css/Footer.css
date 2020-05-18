@@ -6,6 +6,7 @@
 .image-socials {
     margin: 30px 0;
     height: 40px;
+    transition: transform 0.2s ease;
 }
 
 .social-images a {
@@ -18,7 +19,9 @@
 }
 
 .image-socials:hover {
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
+    /* transition: transform 0.2s ease; */
+    transform: translateY(-20px);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -33,7 +36,7 @@
     text-decoration: none;
     font-size: 20px;
     color: black;
-    transition: 1s;
+    transition: 0.6s ease;
 }
 
 @media only screen and (max-width: 768px) {
