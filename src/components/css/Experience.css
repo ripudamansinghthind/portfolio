@@ -41,8 +41,21 @@ p {
     font-size: 15px;
 }
 
+.company-website-experience {
+  display: inline-block;
+  font-size: 15px;
+  border-left: 1.5px #DB2A20 solid;
+  transition: transform 0.2s ease;
+}
 
-
+.company-website-experience:hover {
+  color: black;
+  border-bottom: 0.5px #DB2A20 solid;
+  text-decoration: none;
+  transform: translateX(-30px);
+  transition: transform 0.3s ease-in-out;
+  border-left: 0px;
+}
 
 @media only screen and (max-width: 768px) {
   .Experience-header {

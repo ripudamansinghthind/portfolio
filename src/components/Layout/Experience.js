@@ -10,7 +10,7 @@ const Experience = (props) => {
       <div className="row">
         <div className="experience-column-1">
           <h3>Junior Software Developer </h3>
-          <h5>Swartz Software Development (Kamloops, BC)</h5>
+          <a href="https://swartz.dev/" className="company-website-experience" target="_blank" rel="noopener noreferrer">Swartz Software Development (Kamloops, BC)</a>
           <p>Jan 2020 - April 2020</p>
         </div>
       <div className="experience-column-2">
@@ -22,7 +22,8 @@ const Experience = (props) => {
       <div className="row">
         <div className="experience-column-1">
       <h3>Software Developer Co-op</h3>
-      <h5>USNR (Salmon Arm, BC)</h5>
+      <h5></h5>
+      <a href="https://www.usnr.com/en/page/home" className="company-website-experience" target="_blank" rel="noopener noreferrer">USNR (Salmon Arm, BC)</a>
         <p>May 2019 - Dec 2019</p>
           </div>
           <div className="experience-column-2">
@@ -34,7 +35,7 @@ const Experience = (props) => {
           <div className="row">
         <div className="experience-column-1">
         <h3>Research Assistant </h3>
-        <h5>TRU (Kamloops, BC)</h5>
+        <a href="https://tru.ca/" className="company-website-experience" target="_blank" rel="noopener noreferrer">TRU (Kamloops, BC)</a>
         <p>Jan 2019 - April 2019</p>
           </div>
           <div className="experience-column-2">
@@ -46,7 +47,7 @@ const Experience = (props) => {
           <div className="row">
             <div className="experience-column-1">
               <h3>Teaching Assistant</h3>
-              <h5>TRU (Kamloops, BC)</h5>
+              <a href="https://tru.ca/" className="company-website-experience" target="_blank" rel="noopener noreferrer">TRU (Kamloops, BC)</a>
               <p>Sept 2018 - Dec 2018</p>
             </div>
             <div className="experience-column-2">
@@ -58,7 +59,7 @@ const Experience = (props) => {
           <div className="row">
             <div className="experience-column-1">
               <h3>Cashier</h3>
-              <h5>Walmart (Kamloops, BC)</h5>
+              <a href="https://www.walmart.ca/en" className="company-website-experience" target="_blank" rel="noopener noreferrer">Walmart (Kamloops, BC)</a>
               <p>April 2018 - Jan 2019</p>
             </div>
             <div className="experience-column-2">
