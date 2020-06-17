@@ -18,7 +18,7 @@ import './components/css/Navbar.css'
 
 function App() {
   return (
-    <div id = "container-center" style = {{backgroundColor: "white"}}>
+    <div className="container-center">
       <Router>
         <nav className="navbar" id="navbar">
           <div className="nav-content">

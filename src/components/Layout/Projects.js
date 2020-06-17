@@ -44,8 +44,7 @@ export default class FetchGitHub extends React.Component {
           <p>Frameworks, Libraries, Languages:</p>
           <div className="tech-skills">
             <p className="tech-skills-text">React Native</p>
-            <p className="tech-skills-text">Expo</p>
-            <p className="tech-skills-text">Detox</p>
+            <p className="tech-skills-text">TypeScript</p>
           </div>
           <div>
             <a href="https://github.com/ripudamansinghthind/reactnativecalculator" target="_blank" rel="noopener noreferrer">

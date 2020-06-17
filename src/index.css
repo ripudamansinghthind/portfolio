@@ -5,101 +5,21 @@
     font-family: 'Roboto Mono', monospace;
     cursor: crosshair;
 }
+
 html, body {
     margin: 0;
     padding: 0;
 }
-body {
-    background-color: white;
-}
+
 .container {
     width: 100%;
     margin: auto;
 }
-.hide {
-    display: none;
-}
-/*circle styles*/
 
-#circle {
-    position: fixed;
-    top: 10%;
-    left: 10%;
-    width: 800px;
-    height: 800px;
-    background-image: url(background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-#circle div {
-    width: 400px;
-    height: 400px;
-}
-.circle__topleft {
-    border-top-left-radius: 400px;
-    float: left;
-    color: transparent;
-    line-height: 400px;
-    text-align: center;
-}
-.circle__topleft:hover {
-    color: white;
-    transition: 0.5s;
-}
-.circle__topleft:active {
-    background-color: green;
-    transition: 0.5s;
-
-}
-.circle__topright {
-    border-top-right-radius: 400px;
-    float: right;
-    color: transparent;
-    line-height: 400px;
-    text-align: center;
-}
-.circle__topright:hover {
-    color: white;
-    transition: 0.5s;
-}
-.circle__topright:active {
-    background-color: red;
-    transition: 0.5s;
-}
-.circle__botleft {
-    border-bottom-left-radius: 400px;
-    float: left;
-    color: transparent;
-    line-height: 150px;
-    text-align: center;
-}
-.circle__botleft:hover {
-    color: white;
-    transition: 0.5s;
-}
-.circle__botleft:active {
-    background-color: yellow;
-    transition: 0.5s;
-}
-.circle__botright {
-    border-bottom-right-radius: 400px;
-    float: right;
-    color: transparent;
-    line-height: 150px;
-    text-align: center;
-}
-.circle__botright:hover {
-    color: white;
-    transition: 0.5s;
-}
-.circle__botright:active {
-    background-color: blue;
-    transition: 0.5s;
-}
 h4 {
     font-size: 40px;
 }
+
 h3 {
     margin: auto;
     font-size: 23px !important;
