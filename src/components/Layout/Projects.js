@@ -10,7 +10,7 @@ export default class FetchGitHub extends React.Component {
       <div className='repos'>
         <div className='card'>
           <div className="projects-header">
-            <h1>&#x1F525;Projects&#x1F525;</h1>
+            <h1>Projects</h1>
             <p>I have many more projects that I am constantly working on hosted on my GitHub</p>
           </div>
         <div className="projects-row">
@@ -39,7 +39,7 @@ export default class FetchGitHub extends React.Component {
             <h3>Calculator</h3>
         </div>
         <div className = "projects-column-2">
-          <p>My first React Native App (TypeScript) that I made for a tech interview and successfully got the job&#x1F60E;</p>
+          <p>My first React Native App (TypeScript) that I made for a tech interview and successfully got the job</p>
           <br />
           <p>Frameworks, Libraries, Languages:</p>
           <div className="tech-skills">
@@ -76,7 +76,7 @@ export default class FetchGitHub extends React.Component {
               <h3>Portfolio Website</h3>
             </div>
             <div className = "projects-column-2">
-              <p>This portfolio website hosted here &#x1F525;&#x1F525;&#x1F525;</p>
+              <p>This portfolio website hosted here</p>
               <br />
               <p>Frameworks, Libraries, Languages:</p>
               <div className="tech-skills">
