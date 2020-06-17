@@ -22,7 +22,6 @@ const Experience = (props) => {
       <div className="row">
         <div className="experience-column-1">
       <h3>Software Developer Co-op</h3>
-      <h5></h5>
       <a href="https://www.usnr.com/en/page/home" className="company-website-experience" target="_blank" rel="noopener noreferrer">USNR (Salmon Arm, BC)</a>
         <p>May 2019 - Dec 2019</p>
           </div>
