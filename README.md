@@ -1,13 +1,14 @@
-Live at: https://ripthind.com/
+# Portfolio Website
 
-This is my portfolio website.
+## Live at https://ripthind.com/
 
-Built with ReactJs and deployed with Netlify.
+A basic portfolio website displaying my resume, experiences & projects.
 
-Prototype Ideas: https://www.figma.com/file/OYVOhjlUzJrcOXi0BjtVMpDN/Portfolio-website?node-id=0%3A1
+### Design:
+* Figma Link - https://www.figma.com/file/OYVOhjlUzJrcOXi0BjtVMpDN/Portfolio-website?node-id=0%3A1
 
-Goals: 
-1. Need to get emails working and add a contact me Link
-2. Render Resume on the website
-3. ~~Get GitHub API to import all my GitHub projects and present them in a tidy manner rather than linking to GitHub~~ - Done
-4. ~~Make the Website Responsive~~ - Done
+### Front-end:
+##### ReactJS, CSS
+
+### Deploy:
+##### Netlify
