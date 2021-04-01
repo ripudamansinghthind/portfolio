@@ -14,10 +14,7 @@ const Profile = (props) => {
           <p className="title">| Software Developer | Senior @Thompson Rivers University | Kamloops, BC |</p>
         </div>   
         <div className="column-2-card">
-          <h3>Nice to meet you!</h3>
-          <p>I also go by Felix</p>
-          <p>I love trying everything at least once. Some of the hobbies I've kept for quite a bit now are longboarding, collecting fountain pens, video games, etc</p>
-          <p>Feel free to hit me up on my socials!</p>
+          <h3>Work in Progress</h3>
         </div>
       </div>
     </div>
