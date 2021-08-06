@@ -90,6 +90,47 @@ export default class FetchGitHub extends React.Component {
             </div>
             </div>
             </div>
+            <div className="projects-row">
+          <div className="projects-column">
+            <div className = "projects-column-1">
+              <h3>Weather API</h3>
+            </div>
+          <div className = "projects-column-2">
+            <p>React App working with an online weather api</p>
+            <br />
+            <p>Frameworks, Libraries, Languages:</p>
+            <div className="tech-skills">
+              <p className="tech-skills-text">ReactJS</p>
+              <p className="tech-skills-text">Netlify</p>
+            </div>
+          <div>
+            <a href="https://github.com/ripudamansinghthind/weather-api" target="_blank" rel="noopener noreferrer">
+            <img src={ GitHubImage } className="projects-link-image" alt = "GitHub social link"/></a>
+            <a href="https://unruffled-heyrovsky-37c689.netlify.app/">
+            <img src={ PlayImage } className="projects-link-image" alt = "GitHub social link"/></a>
+          </div>
+        </div>
+      </div>
+      <div className="projects-column">
+        <div className = "projects-column-1">
+            <h3>Dystopia (video game)</h3>
+        </div>
+        <div className = "projects-column-2">
+          <p>My summer project for 2021. A video game that I directed, designed and developed. Project Under Development</p>
+          <br />
+          <p>Frameworks, Libraries, Languages:</p>
+          <div className="tech-skills">
+            <p className="tech-skills-text">C#</p>
+            <p className="tech-skills-text">Unity</p>
+            <p className="tech-skills-text">Blender</p>
+          </div>
+          <div>
+            <a href="https://github.com/ripudamansinghthind/dystopia-game" target="_blank" rel="noopener noreferrer">
+            <img src={ GitHubImage } className="projects-link-image" alt = "GitHub social link"/></a>
+          </div>
+        </div>
+        </div>
+        </div>
             </div>
             </div>
     );
