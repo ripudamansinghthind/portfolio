@@ -9,6 +9,18 @@ const Experience = (props) => {
       </div>
       <div className="row">
         <div className="experience-column-1">
+          <h3>Software Developer Co-op </h3>
+          <a href="https://www.teck.com/" className="company-website-experience" target="_blank" rel="noopener noreferrer">Teck Coal Resources Ltd. (Calgary, AB)</a>
+          <p>Sept 2021 - April 2022</p>
+        </div>
+      <div className="experience-column-2">
+      <p>• Developed Mobile Application Prototypes for a Fitness Trainer App providing coaches the ability to manage their clients efficiently for both iOS and Android using React Native, TypeScript & ESlint</p>
+      <p>• Led the Development of testing the final prototypes for continuous integration</p>
+      <p>• Contributed in design and dealt with feedback from daily users </p>
+      </div>
+      </div>
+      <div className="row">
+        <div className="experience-column-1">
           <h3>Junior Software Developer </h3>
           <a href="https://swartz.dev/" className="company-website-experience" target="_blank" rel="noopener noreferrer">Swartz Software Development (Kamloops, BC)</a>
           <p>Jan 2020 - April 2020</p>

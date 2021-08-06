@@ -18,7 +18,7 @@ const Foot = (props) => {
           <img src={ GitHubImage } className="image-socials" alt = "GitHub social link"/></a>
         <a href="https://www.facebook.com/profile.php?id=100006921404837" target="_blank" rel="noopener noreferrer">
           <img src={ FbImage } className="image-socials" alt = "Fb social link"/></a>
-        <a href="https://www.instagram.com/rstgt/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/felixthind/" target="_blank" rel="noopener noreferrer">
           <img src={ InstaImage } className="image-socials" alt = "Instagram social link"/></a>
         <p className = "footer-para-text">This website is maintained on my <a href="https://github.com/ripudamansinghthind/portfolio-website" className="footer-a" target="_blank" rel="noopener noreferrer">GitHub</a></p>
       </div>

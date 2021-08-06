@@ -25,7 +25,7 @@ export default class FetchGitHub extends React.Component {
             <div className="tech-skills">
               <p className="tech-skills-text">ReactJS</p>
               <p className="tech-skills-text">Netlify</p>
-          </div>
+            </div>
           <div>
             <a href="https://github.com/ripudamansinghthind/sorting-visualization" target="_blank" rel="noopener noreferrer">
             <img src={ GitHubImage } className="projects-link-image" alt = "GitHub social link"/></a>

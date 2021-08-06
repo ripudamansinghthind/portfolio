@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+:root {
+  --bg:  #999da1;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --menu-item-color: #7d8597;
+  --nav-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 400ms; 
+}
+
 html {
   scroll-behavior: smooth;
 }
