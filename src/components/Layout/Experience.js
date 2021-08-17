@@ -9,9 +9,19 @@ const Experience = (props) => {
       </div>
       <div className="row">
         <div className="experience-column-1">
+          <h3>React Developer</h3>
+          <a href="https://www.getwoobie.com/" className="company-website-experience" target="_blank" rel="noopener noreferrer">GetWoobie Ltd. (Remote Lehi, Utah)</a>
+          <p>Aug 2021 - Currently Employed</p>
+        </div>
+      <div className="experience-column-2">
+      <p>• Developed Website Application Prototypes for a Dental AI Software using React, TypeScript, Material UI, aws cdk & ESlint</p>
+      </div>
+      </div>
+      <div className="row">
+        <div className="experience-column-1">
           <h3>Software Developer Co-op </h3>
           <a href="https://www.teck.com/" className="company-website-experience" target="_blank" rel="noopener noreferrer">Teck Coal Resources Ltd. (Calgary, AB)</a>
-          <p>Sept 2021 - April 2022</p>
+          <p>Sept 2020 - April 2021</p>
         </div>
       <div className="experience-column-2">
       <p>• Developed Mobile Application Prototypes for a Fitness Trainer App providing coaches the ability to manage their clients efficiently for both iOS and Android using React Native, TypeScript & ESlint</p>
