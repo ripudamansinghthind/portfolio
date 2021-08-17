@@ -16,13 +16,11 @@
 }
 
 .clickyButton {
-  opacity: 60%;
   padding: 20px 30px;
   transition: transform 0.2s ease;
 }
 
 .clickyButton:hover {
-  opacity: 100%;
   border-bottom: 1px #DB2A20 solid;
   transform: translateY(-20px);
   transition: transform 0.3s ease-in-out;
@@ -41,31 +39,31 @@
   .navbar {
     width: 100%;
     font-size: 8px !important;
-    margin: 0 auto;
-    padding: 0 auto;
     justify-content: center;
     background-color: brown;
   }
   
   .nav-content {  /* Allow the centering to work */
-    margin: 0;
-    padding: 0;
-  }
-  .nav-items {
-    margin: 0;
+    display: flex;
     padding: 0;
   }
   
+  .nav-items {
+    margin: 0 auto;
+    padding-left: 0;
+    justify-content: center;
+  }
+
   .nav-item {
-    margin: 0;
     padding: 0 auto;
     display: table-cell;
-    justify-content: space-between;
   }
   
   .clickyButton {
     border-left: 1px rgba(158, 95, 95, 0.5) solid;
     font-size: 16px;
+    color: white;
+    margin-left: 5px;
   }
   
   .clickyButton:hover {
@@ -80,10 +78,5 @@
   
   .nav-item a:hover {
     text-decoration: none;
-    opacity: 40%;
-  }
-  a {
-    font-size: 18px;
-    color: white;
   }
 }
