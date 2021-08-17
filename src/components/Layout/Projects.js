@@ -39,7 +39,7 @@ export default class FetchGitHub extends React.Component {
             <h3>Calculator</h3>
         </div>
         <div className = "projects-column-2">
-          <p>My first React Native App (TypeScript) that I made for a tech interview and successfully got the job</p>
+          <p>React Native calculator made with created with TypeScript</p>
           <br />
           <p>Frameworks, Libraries, Languages:</p>
           <div className="tech-skills">
@@ -113,7 +113,7 @@ export default class FetchGitHub extends React.Component {
       </div>
       <div className="projects-column">
         <div className = "projects-column-1">
-            <h3>Dystopia (video game)</h3>
+            <h3>Dystopia (Video Game)</h3>
         </div>
         <div className = "projects-column-2">
           <p>My summer project for 2021. A video game that I directed, designed and developed. Project Under Development</p>

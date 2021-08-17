@@ -16,11 +16,13 @@
 }
 
 .clickyButton {
+  opacity: 60%;
   padding: 20px 30px;
   transition: transform 0.2s ease;
 }
 
 .clickyButton:hover {
+  opacity: 100%;
   border-bottom: 1px #DB2A20 solid;
   transform: translateY(-20px);
   transition: transform 0.3s ease-in-out;
@@ -42,7 +44,7 @@
     margin: 0 auto;
     padding: 0 auto;
     justify-content: center;
-    background-color: #DB2A20;
+    background-color: brown;
   }
   
   .nav-content {  /* Allow the centering to work */
@@ -58,12 +60,12 @@
     margin: 0;
     padding: 0 auto;
     display: table-cell;
+    justify-content: space-between;
   }
   
   .clickyButton {
-    margin: 0;
-    padding: 0 auto;
     border-left: 1px rgba(158, 95, 95, 0.5) solid;
+    font-size: 16px;
   }
   
   .clickyButton:hover {
@@ -78,9 +80,10 @@
   
   .nav-item a:hover {
     text-decoration: none;
-    color: black;
+    opacity: 40%;
   }
   a {
     font-size: 18px;
+    color: white;
   }
 }

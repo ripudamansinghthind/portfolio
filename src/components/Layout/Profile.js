@@ -17,7 +17,7 @@ function Profile() {
             </div>
           <h1>Ripudaman "Felix" Thind</h1>
           <p className="title">| Software Developer | Entrepreneur | Fourth Year @TRU |</p>
-          <img src={LocationIcon} class="location-img" alt='Location' />
+          <img src={LocationIcon} className="location-img" alt='Location' />
           <p className="title">| Kamloops, BC |</p>
         </div>   
         <div className="column-2-card">

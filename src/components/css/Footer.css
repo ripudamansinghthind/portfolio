@@ -21,7 +21,7 @@
 .image-socials:hover {
     /* transform: scale(1.5); */
     /* transition: transform 0.2s ease; */
-    transform: translateY(-20px);
+    transform: translateY(-10px);
     transition: transform 0.3s ease-in-out;
 }
 
