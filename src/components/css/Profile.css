@@ -1,0 +1,40 @@
+.profile__row {
+  display: flex;
+  width: 100%;
+}
+
+.image-cropper {
+  overflow: hidden;
+  background-position: center;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.CEO__img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+
+.profile__column1 {
+  text-align: center;
+  width: 50%;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.profile__column2 {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  border-left: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.CEO__title {
+  margin-top: 100px;
+}
+
+.img__cropper_p {
+  font-size: 15px;
+}
