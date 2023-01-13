@@ -27,10 +27,6 @@ npm start / yarn start
 
 Your web browser should automatically open to `<ip>:<port>:<path>` default: [http://localhost:3000/](http://localhost:3000/).
 
-## Deploying
-
-Make a commit to `master` and push your changes. That's it.
-
 
 © 2023 GitHub, Inc.
 Footer navigation
@@ -47,4 +43,4 @@ Footer navigation
     Blog
     About
 
-portfolio-website/README.md at main · ripudamansinghthind/portfolio-website
+portfolio-website/README.md at master · ripudamansinghthind/portfolio-website
