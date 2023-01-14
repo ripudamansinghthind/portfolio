@@ -5,12 +5,12 @@
   border-bottom: 1px solid #E5E5E5;
 }
 
-.logo-img {
-  margin-top: 10px;
-  width: 180px;
-  height: 120px;
-  filter: invert(20%);
-  }
+.nav-item-header {
+  display: block;
+  padding-top: 50px;
+  filter: invert(100%);
+  transition: filter 0.5s;
+}
 
 .navbar {
 }
@@ -51,8 +51,8 @@
   font-size: 15px;
 }
 
-.logo-img:hover {
-  filter: invert(100%);
+.nav-item-header:hover {
+  filter: invert(0%);
   transition: filter 0.5s;
   }
 
