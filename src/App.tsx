@@ -97,7 +97,7 @@ return (
             <div className="nav-content">
               <div className="logo-border">
                 <Link to="/">
-                {/* <motion.img
+                <motion.img
                   onClick={ toggleNav }
                   src={Logo}
                   className="logo-img"
@@ -108,17 +108,7 @@ return (
                     delay: 1,
                     x: { duration: 1 },
                     default: { ease: "linear" }
-                  }} /> */}
-                    <NavLink
-                        to="/"
-                        onClick={ toggleNav }
-                        className = 'nav-item-header'
-                        style={({ isActive }) => ({
-                          color: isActive ? '#C7C7C7' : '#1E1E1E',
-                        })}
-                      >
-                        FELIX THIND
-                    </NavLink>
+                  }} />
                   </Link>
                 </div>
                 <ul className="nav-items">
