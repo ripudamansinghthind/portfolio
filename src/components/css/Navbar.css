@@ -1,107 +1,104 @@
 @media only screen and (min-width: 768px) {
-
-.logo-border {
-  height: 140px;
-  border-bottom: 1px solid #E5E5E5;
-}
-
-.logo-img {
-  margin-top: 10px;
-  width: 180px;
-  height: 120px;
-  filter: invert(20%);
+  .logo-border {
+    height: 140px;
+    border-bottom: 1px solid #e5e5e5;
   }
 
-.navbar {
-}
-
-.nav-content {
-  margin: 0;
-  padding: 0;
-}
-    
-.nav-item {
-  display: block;
-  border-bottom: 1px solid #E5E5E5;
-  padding: 30px 0;
-}
-
-.nav-items {
-  margin: 0 auto;
-  padding: 0;
-}
-
-.clickyButton {
-  padding: 10px 15px;
-}
-
-.resumeButton {
-  display: block;
-  padding: 10px 15px;
-  font-size: 15px;
-}
-
-.resumeButton a{
-  text-decoration: none;
-  color: #C7C7C7;
-}
-
-.nav-item a {
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.logo-img:hover {
-  filter: invert(100%);
-  transition: filter 0.5s;
+  .logo-img {
+    margin-top: 10px;
+    width: 180px;
+    height: 120px;
+    filter: invert(20%);
   }
 
-.nav-item:hover {
-  text-decoration: none;
-  color: #E5E5E5;
-  background-color: #7F7F7F;
-  transition: background-color 1s;
+  .navbar {
+  }
+
+  .nav-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 30px 0;
+  }
+
+  .nav-items {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .clickyButton {
+    padding: 10px 15px;
+  }
+
+  .resumeButton {
+    display: block;
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  .resumeButton a {
+    text-decoration: none;
+    color: #c7c7c7;
+  }
+
+  .nav-item a {
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .logo-img:hover {
+    filter: invert(100%);
+    transition: filter 0.5s;
+  }
+
+  .nav-item:hover {
+    text-decoration: none;
+    color: #e5e5e5;
+    background-color: #7f7f7f;
+    transition: background-color 1s;
+  }
+
+  .resumeButton:hover {
+    color: #e5e5e5;
+    background-color: #7f7f7f;
+    transition: background-color 1s;
+  }
+
+  .image-socials_mail {
+    height: 18px;
+    opacity: 0.5;
+  }
+
+  .image-socials_linkedin {
+    height: 20px;
+    opacity: 0.5;
+  }
+
+  .image-socials_github {
+    height: 22px;
+    opacity: 0.5;
+  }
+
+  .social-images {
+    padding: 0;
+  }
+  .social-images a {
+    margin: 0 20px;
+  }
+
+  .image-socials_github:hover,
+  .image-socials_linkedin:hover,
+  .image-socials_mail:hover {
+    opacity: 1;
+    scale: 1.5;
+    transition: opacity 0.5s;
+    transition: scale 0.5s;
+  }
 }
-
-.resumeButton:hover {
-  color: #E5E5E5;
-  background-color: #7F7F7F;
-  transition: background-color 1s;
-}
-
-.image-socials_mail {
-  height: 18px;
-  opacity: 0.5;
-}
-
-.image-socials_linkedin {
-  height: 20px;
-  opacity: 0.5;
-}
-
-.image-socials_github {
-  height: 22px;
-  opacity: 0.5;
-}
-
-.social-images {
-  padding: 0;
-}
-.social-images a {
-  margin: 0 20px;
-}
-
-.image-socials_github:hover, .image-socials_linkedin:hover, .image-socials_mail:hover {
-  opacity: 1;
-  scale: 1.5;
-  transition: opacity 0.5s;
-  transition: scale 0.5s;
-}
-
-}
-
-
-
 
 @media only screen and (max-width: 768px) {
   .navbar {
@@ -111,11 +108,11 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.4);
   }
-  
+
   .nav-content {
     padding: 0;
   }
-  
+
   .nav-items {
     margin: 0 auto;
     padding-left: 0;
@@ -134,8 +131,8 @@
     border-radius: 5px;
     padding: 5px;
   }
-  
-  .resumeButton a{
+
+  .resumeButton a {
     display: block;
     font-size: 18px;
     color: white;
@@ -151,17 +148,17 @@
   .social-images {
     margin-bottom: 10px;
   }
-  
+
   .clickyButton:hover {
     color: white;
     transition: color 0.5s;
   }
-  
+
   .nav-item a:hover {
     text-decoration: none;
     color: black;
   }
-  
+
   .resumeButton:hover {
     color: white;
     transition: color 0.5s;
@@ -171,17 +168,17 @@
     margin-top: 10px;
     height: 20px;
     transition: transform 0.2s ease;
-}
+  }
 
-.social-images a {
+  .social-images a {
     margin: 0 15px;
-}
-.footer-a {
-  display: inline-block;
-  font-size: 9px;
-  padding: 0 !important;
-  margin: 0 !important;
-  text-decoration: underline;
-  transition: transform 0.2s ease;
-}
+  }
+  .footer-a {
+    display: inline-block;
+    font-size: 9px;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-decoration: underline;
+    transition: transform 0.2s ease;
+  }
 }

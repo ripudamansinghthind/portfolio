@@ -1,10 +1,10 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const Loader = () => {
   return (
     <motion.div
-     style={{ zIndex: 100 }}
+      style={{ zIndex: 100 }}
       className="fixed bg-dark grid place-content-center w-full h-screen top-0 left-0"
     >
       <motion.svg

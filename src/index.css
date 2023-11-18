@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Albula-Regular";   /*Can be any text*/
-  src: local("Albula"),
-    url("./components/fonts/Albula-Regular.ttf") format("woff");
+  font-family: 'Albula-Regular'; /*Can be any text*/
+  src:
+    local('Albula'),
+    url('./components/fonts/Albula-Regular.ttf') format('woff');
 }
-
 
 body {
   margin: 0;
@@ -14,9 +14,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 30px;
-  height: 100%; 
+  height: 100%;
   overflow: hidden;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
 }
 
 * {
@@ -26,6 +26,5 @@ body {
 
 a {
   text-decoration: none;
-  color: #1E1E1E;
+  color: #1e1e1e;
 }
-
