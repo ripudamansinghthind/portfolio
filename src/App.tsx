@@ -2,10 +2,9 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Routes, Route, Link, NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
-//vercel analytics
+//vercel
 import { Analytics } from '@vercel/analytics/react';
-//cursor
-import 'custom-cursor-react/dist/index.css';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 //particles
 import Particles from 'react-particles';
@@ -84,6 +83,7 @@ function App() {
   return (
     <div className="App">
       <Analytics />
+      <SpeedInsights />
       <Particles
         options={particlesOptions as ISourceOptions}
         init={particlesInit}
