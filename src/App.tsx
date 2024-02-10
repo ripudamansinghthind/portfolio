@@ -2,6 +2,8 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Routes, Route, Link, NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
+//vercel analytics
+import { Analytics } from '@vercel/analytics/react';
 //cursor
 import 'custom-cursor-react/dist/index.css';
 
@@ -81,6 +83,7 @@ function App() {
 
   return (
     <div className="App">
+      <Analytics />
       <Particles
         options={particlesOptions as ISourceOptions}
         init={particlesInit}
