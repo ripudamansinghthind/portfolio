@@ -1,25 +1,8 @@
-import { React, useEffect, useState } from 'react';
 import '../css/Profile.css';
-import { AnimatePresence, motion, MotionConfig } from 'framer-motion';
-
-// Icons import
-import Img1 from '../Icons/FelixThindBGRem.png';
+import { motion } from 'framer-motion';
 import Img2 from '../Icons/FelixThindBGRemFilm.png';
-import LocationIcon from '../Icons/location.svg';
-
-import Loader from './Loader';
-
-const variants = {
-  hidden: { opacity: 0, x: 500 },
-  visible: { opacity: 1, x: 0 },
-  exiting: { opacity: 0, x: 500 },
-};
-
-const images = [Img1, Img2];
 
 function Profile() {
-  const [selectedImage, setSelectedImage] = useState(0);
-
   return (
     <>
       <motion.div className="card" id="Profile">

@@ -111,25 +111,10 @@ const Projects = () => {
     },
   ];
 
-  const menuItems = [...new Set(Data.map((Val) => Val.category))];
+  // const menuItems = [...new Set(Data.map((Val) => Val.category))];
 
   return (
     <motion.div className="card">
-      {/* <div className="projects-heading-row">
-        <div className="projects-heading-column1">
-          All Projects
-        </div>
-        <div className="projects-heading-column2">
-          Web Applications
-        </div>
-        <div className="projects-heading-column3">
-          Mobile Applications
-        </div>
-        <div className="projects-heading-column4">
-          Software Applications
-        </div>
-      </div> */}
-
       {Data.map((Val) => {
         return (
           <motion.div
