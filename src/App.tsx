@@ -244,8 +244,10 @@ function App() {
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
                   transition={{
-                    delay: 3,
-                    duration: 1.7,
+                    delay: 4.5,
+                    duration: 4,
+                    type: 'spring',
+                    bounce: 0.8,
                   }}
                 />
               </a>
@@ -261,8 +263,10 @@ function App() {
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
                   transition={{
-                    delay: 3,
-                    duration: 1.7,
+                    delay: 4.5,
+                    duration: 4,
+                    type: 'spring',
+                    bounce: 0.8,
                   }}
                 />
               </a>
@@ -278,8 +282,10 @@ function App() {
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
                   transition={{
-                    delay: 3,
-                    duration: 1.7,
+                    delay: 4.5,
+                    duration: 4,
+                    type: 'spring',
+                    bounce: 0.8,
                   }}
                 />
               </a>
