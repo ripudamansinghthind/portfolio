@@ -42,7 +42,7 @@
 
   .resumeButton a {
     text-decoration: none;
-    color: #c7c7c7;
+    color: var(--primary-text-color);
   }
 
   .nav-item a {
@@ -51,44 +51,24 @@
   }
 
   .logo-img:hover {
-    filter: invert(100%);
+    filter: invert(70%);
     transition: filter 0.5s;
   }
 
   .nav-item:hover {
     text-decoration: none;
-    color: #e5e5e5;
-    background-color: #7f7f7f;
+    color: var(--secondary-text-color);
+    background-color: var(--hover-color);
     transition: background-color 1s;
+    transition: color 1.5s;
   }
 
   .resumeButton:hover {
     color: #e5e5e5;
-    background-color: #7f7f7f;
+    background-color: var(--hover-color);
     transition: background-color 1s;
   }
 
-  .image-socials_mail {
-    height: 18px;
-    opacity: 0.5;
-  }
-
-  .image-socials_linkedin {
-    height: 20px;
-    opacity: 0.5;
-  }
-
-  .image-socials_github {
-    height: 22px;
-    opacity: 0.5;
-  }
-
-  .social-images {
-    padding: 0;
-  }
-  .social-images a {
-    margin: 0 20px;
-  }
 
   .image-socials_github:hover,
   .image-socials_linkedin:hover,

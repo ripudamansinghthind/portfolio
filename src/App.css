@@ -1,5 +1,7 @@
 .App {
   display: grid;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
   grid-template-columns: 20% 80%;
   grid-template-rows: 141px 73vh 15vh;
   grid-template-areas:
@@ -115,7 +117,7 @@
 }
 
 .footer_text {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--primary-text-color);
   font-size: 15px;
 }
 
@@ -138,6 +140,34 @@
   top: 0;
   z-index: -1;
 }
+
+
+.image-socials_mail {
+  height: 18px;
+  opacity: 0.5;
+}
+
+.image-socials_linkedin {
+  height: 20px;
+  opacity: 0.5;
+}
+
+.image-socials_github {
+  height: 22px;
+  opacity: 0.5;
+}
+
+.social-images {
+  padding: 0;
+}
+.social-images a {
+  margin: 0 20px;
+}
+
+.invert-color {
+  filter: invert(100%);
+}
+
 
 @media screen and (max-width: 768px) {
   .App {

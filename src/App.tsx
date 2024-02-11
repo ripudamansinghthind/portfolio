@@ -15,6 +15,7 @@ import particlesOptions from './particles.json';
 import { ISourceOptions } from 'tsparticles-engine';
 
 //import components
+import { Toggle } from './components/Layout/Toggle';
 import Profile from './components/Layout/Profile.js';
 import NotFound from './components/Layout/NotFound.js';
 import Experience from './components/Layout/Experience.js';
@@ -38,6 +39,9 @@ function App() {
 
   //Menu
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  //Dark Mode
+  const [isDark, setIsDark] = useState(true);
 
   //responsive screen
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -81,7 +85,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" data-theme={isDark ? 'dark' : 'light'}>
       <Analytics />
       <SpeedInsights />
       <Particles
@@ -97,7 +101,7 @@ function App() {
                   <motion.img
                     onClick={toggleNav}
                     src={Logo}
-                    className="logo-img"
+                    className={`logo-img ${isDark ? 'invert-color' : ''}`}
                     alt="Logo"
                     initial={{ x: -1000 }}
                     animate={{ x: 0 }}
@@ -110,12 +114,7 @@ function App() {
                 </Link>
               </div>
               <ul className="nav-items">
-                <NavLink
-                  to="/Experience"
-                  style={({ isActive }) => ({
-                    color: isActive ? '#1E1E1E' : '#C7C7C7',
-                  })}
-                >
+                <NavLink to="/Experience">
                   <motion.li
                     className="nav-item"
                     onClick={toggleNav}
@@ -130,12 +129,7 @@ function App() {
                     EXPERIENCE
                   </motion.li>
                 </NavLink>
-                <NavLink
-                  to="/Projects"
-                  style={({ isActive }) => ({
-                    color: isActive ? '#1E1E1E' : '#C7C7C7',
-                  })}
-                >
+                <NavLink to="/Projects">
                   <motion.li
                     className="nav-item"
                     onClick={toggleNav}
@@ -239,7 +233,7 @@ function App() {
               >
                 <motion.img
                   src={EmailImage}
-                  className="image-socials_mail"
+                  className={`image-socials_mail ${isDark ? 'invert-color' : ''}`}
                   alt="Email social link"
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
@@ -258,7 +252,7 @@ function App() {
               >
                 <motion.img
                   src={LinkedInImage}
-                  className="image-socials_linkedin"
+                  className={`image-socials_linkedin ${isDark ? 'invert-color' : ''}`}
                   alt="LinkedIn social link"
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
@@ -277,7 +271,7 @@ function App() {
               >
                 <motion.img
                   src={GitHubImage}
-                  className="image-socials_github"
+                  className={`image-socials_github ${isDark ? 'invert-color' : ''}`}
                   alt="GitHub social link"
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
@@ -291,6 +285,13 @@ function App() {
               </a>
             </motion.div>
           </motion.div>
+          <div className="bottom-right-icons">
+            <Toggle
+              isChecked={isDark}
+              handleChange={() => setIsDark(!isDark)}
+              icons={{ checked: '🌙', unchecked: '🔆' }}
+            />
+          </div>
         </div>
       </motion.div>
     </div>

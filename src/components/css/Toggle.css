@@ -1,0 +1,30 @@
+.toggle-container {
+    position: absolute;
+    top: -1em;
+    right: 0.5em;
+}
+
+.toggle {
+    visibility: hidden;
+}
+
+.toggle + label {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: var(--primary-text-color);
+}
+
+.toggle + label::before {
+    background-color: var(--toggle-bg);
+    transition: background-color 250ms ease-in-out;
+}
+
+.toggle + label::after {
+    background-color: var(--toggle-fg);
+}
+
+.toggle:checked + label::after {
+    transform: translateX(100%);
+}
