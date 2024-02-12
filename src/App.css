@@ -2,8 +2,8 @@
   display: grid;
   background-color: var(--background-color);
   color: var(--primary-text-color);
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 141px 73vh 15vh;
+  grid-template-columns: 18% 82%;
+  grid-template-rows: 116px 80vh 10vh;
   grid-template-areas:
     'navbar-grid header-grid'
     'navbar-grid app-body'
@@ -21,7 +21,7 @@
   justify-items: start;
   align-items: start;
   overflow-y: auto;
-  border-left: 1px solid #e5e5e5;
+  border-left: 1px solid var(--border-color);
   scrollbar-color: #1e1e1e #c7c7c7;
   scrollbar-width: thin;
 }
@@ -55,8 +55,8 @@
 
 .header-grid {
   display: grid;
-  border-left: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
   grid-area: header-grid;
   justify-items: center;
   align-items: center;
@@ -65,11 +65,11 @@
 
 /* Typewriter effect */
 .typewriter .page-title {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #1e1e1e; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  overflow: hidden;
+  border-right: 0.15em solid #1e1e1e;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
   font-size: 30px;
   animation:
     typing 5s steps(40, end),
@@ -93,12 +93,12 @@
     border-color: transparent;
   }
   50% {
-    border-color: #1e1e1e;
+    border-color: var(--border-color);
   }
 }
 
 .nav__footer__row {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid var(--border-color);
   grid-area: resumeBtn;
   text-align: center;
 }
@@ -107,8 +107,8 @@
   display: grid;
   grid-area: footer;
   justify-items: center;
-  border-top: 1px solid #e5e5e5;
-  border-left: 1px solid #e5e5e5;
+  border-top: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
 }
 
 .footer__row {
@@ -118,7 +118,7 @@
 
 .footer_text {
   color: var(--primary-text-color);
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .nav__footer__row2 {
@@ -129,18 +129,6 @@
   visibility: hidden;
   display: none;
 }
-
-#tsparticles {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
-
 
 .image-socials_mail {
   height: 18px;
@@ -158,7 +146,7 @@
 }
 
 .social-images {
-  padding: 0;
+  padding-top: 8px;
 }
 .social-images a {
   margin: 0 20px;

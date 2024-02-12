@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Albula-Regular'; /*Can be any text*/
+  font-family: 'Albula-Regular'; 
   src:
     local('Albula'),
     url('./components/fonts/Albula-Regular.ttf') format('woff');
@@ -13,7 +13,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 30px;
+  font-size: 18px;
   height: 100%;
   overflow: hidden;
   letter-spacing: 0.25rem;
@@ -32,11 +32,12 @@ a {
 :root {
   --background-color: #f6f6f6;
   --foreground-color: #003cff;
-  --primary-text-color: #0a0a0a;
+  --primary-text-color: #363636;
   --secondary-text-color: #C7C7C7;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
   --hover-color: #00a6ff;
+  --border-color: #a3a3a3d5;
 }
 
 [ data-theme="dark"] {
@@ -47,4 +48,5 @@ a {
   --toggle-bg: #283452;
   --toggle-fg: #00a6ff;
   --hover-color: #ffe3b9;
+  --border-color: #ffe3b9;
 }

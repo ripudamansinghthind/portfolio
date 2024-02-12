@@ -31,7 +31,7 @@ function App() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   //Dark Mode
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
 
   //responsive screen
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);

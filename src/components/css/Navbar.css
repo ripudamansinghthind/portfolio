@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
   .logo-border {
-    height: 140px;
-    border-bottom: 1px solid #e5e5e5;
+    height: 115px;
+    border-bottom: 1px solid var(--border-color);
   }
 
   .logo-img {
@@ -21,7 +21,7 @@
 
   .nav-item {
     display: block;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--border-color);
     padding: 30px 0;
   }
 
@@ -64,9 +64,11 @@
   }
 
   .resumeButton:hover {
-    color: #e5e5e5;
+    text-decoration: none;
+    color: var(--secondary-text-color);
     background-color: var(--hover-color);
     transition: background-color 1s;
+    transition: color 1.5s;
   }
 
 
@@ -104,27 +106,14 @@
     display: block;
     font-size: 15px;
     padding: 20px;
-    text-decoration: underline white;
-  }
-  .resumeButton {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-    padding: 5px;
   }
 
   .resumeButton a {
     display: block;
     font-size: 18px;
-    color: white;
     text-decoration: none;
     padding: 10px;
   }
-
-  .nav__footer {
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-
   .social-images {
     margin-bottom: 10px;
   }
@@ -139,11 +128,6 @@
     color: black;
   }
 
-  .resumeButton:hover {
-    color: white;
-    transition: color 0.5s;
-  }
-
   .image-socials {
     margin-top: 10px;
     height: 20px;
@@ -153,6 +137,7 @@
   .social-images a {
     margin: 0 15px;
   }
+
   .footer-a {
     display: inline-block;
     font-size: 9px;

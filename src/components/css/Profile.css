@@ -6,7 +6,7 @@
 .profile__column1 {
   text-align: center;
   width: 50%;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +17,8 @@
   align-items: center;
   text-align: center;
   white-space: nowrap;
-  border-left: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-left: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .image-cropper {
@@ -33,6 +33,7 @@
   width: 100%;
   object-fit: cover;
   height: 500px;
+  border-radius: 10px;
 }
 
 .CEO__title {
