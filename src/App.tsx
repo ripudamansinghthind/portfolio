@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Routes, Route, Link, NavLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -6,13 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
-//particles
-import Particles from 'react-particles';
-import type { Engine } from 'tsparticles-engine';
-import { loadFull } from 'tsparticles';
+//import css
 import './App.css';
-import particlesOptions from './particles.json';
-import { ISourceOptions } from 'tsparticles-engine';
+import '../src/components/css/Navbar.css';
 
 //import components
 import { Toggle } from './components/Layout/Toggle';
@@ -23,8 +19,7 @@ import Projects from './components/Layout/Projects.js';
 import Blog from './components/Layout/Blog';
 import Studio from './components/Layout/Studio.js';
 
-import '../src/components/css/Navbar.css';
-
+//import icons
 import Logo from './components/Icons/Logo.svg';
 import LinkedInImage from '../src/components/Icons/linkedin.svg';
 import GitHubImage from '../src/components/Icons/github.svg';
@@ -32,11 +27,6 @@ import EmailImage from '../src/components/Icons/mail.svg';
 import Resume from '../src/components/Icons/Felix Thind - No personal.pdf';
 
 function App() {
-  //particles
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadFull(engine);
-  }, []);
-
   //Menu
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -88,10 +78,6 @@ function App() {
     <div className="App" data-theme={isDark ? 'dark' : 'light'}>
       <Analytics />
       <SpeedInsights />
-      <Particles
-        options={particlesOptions as ISourceOptions}
-        init={particlesInit}
-      />
       <div className="navbar-grid">
         {(toggleMenu || screenWidth > 768) && (
           <motion.nav className="navbar" id="navbar">
