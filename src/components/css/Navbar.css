@@ -8,7 +8,7 @@
     margin-top: 10px;
     width: 180px;
     height: 120px;
-    filter: invert(20%);
+    filter: invert(60%);
   }
 
   .navbar {
@@ -45,13 +45,19 @@
     color: var(--primary-text-color);
   }
 
+  .resumeButton a:hover {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    transition: color 0.3s;
+  }
+
   .nav-item a {
     text-decoration: none;
     font-size: 15px;
   }
 
   .logo-img:hover {
-    filter: invert(70%);
+    filter: invert(100%);
     transition: filter 0.5s;
   }
 
@@ -60,7 +66,7 @@
     color: var(--secondary-text-color);
     background-color: var(--hover-color);
     transition: background-color 1s;
-    transition: color 1.5s;
+    transition: color 0.3s;
   }
 
   .resumeButton:hover {

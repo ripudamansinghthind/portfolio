@@ -146,10 +146,11 @@
 }
 
 .social-images {
-  padding-top: 8px;
+  padding-top: 15px;
+  scale: 1.2;
 }
 .social-images a {
-  margin: 0 20px;
+  margin: 0 50px;
 }
 
 .invert-color {

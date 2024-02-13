@@ -197,19 +197,18 @@ function App() {
               delay: 3,
               duration: 2,
               type: 'spring',
-              bounce: 0.6,
+              bounce: 0.2,
             }}
           >
-            <p className="footer_text">CONNECT WITH ME</p>
             <motion.div
               className="social-images"
               initial={{ y: 200 }}
               animate={{ y: 0 }}
               transition={{
                 delay: 4.5,
-                duration: 2,
+                duration: 3,
                 type: 'spring',
-                bounce: 0.6,
+                bounce: 0.4,
               }}
             >
               <a
@@ -222,12 +221,12 @@ function App() {
                   className={`image-socials_mail ${isDark ? 'invert-color' : ''}`}
                   alt="Email social link"
                   initial={{ rotate: 0 }}
-                  animate={{ rotate: 360 }}
+                  animate={{ rotate: 720 }}
                   transition={{
                     delay: 4.5,
                     duration: 4,
                     type: 'spring',
-                    bounce: 0.8,
+                    bounce: 0.4,
                   }}
                 />
               </a>
@@ -241,12 +240,12 @@ function App() {
                   className={`image-socials_linkedin ${isDark ? 'invert-color' : ''}`}
                   alt="LinkedIn social link"
                   initial={{ rotate: 0 }}
-                  animate={{ rotate: 360 }}
+                  animate={{ rotate: 720 }}
                   transition={{
                     delay: 4.5,
-                    duration: 4,
+                    duration: 5,
                     type: 'spring',
-                    bounce: 0.8,
+                    bounce: 0.4,
                   }}
                 />
               </a>
@@ -260,12 +259,12 @@ function App() {
                   className={`image-socials_github ${isDark ? 'invert-color' : ''}`}
                   alt="GitHub social link"
                   initial={{ rotate: 0 }}
-                  animate={{ rotate: 360 }}
+                  animate={{ rotate: 720 }}
                   transition={{
                     delay: 4.5,
-                    duration: 4,
+                    duration: 5,
                     type: 'spring',
-                    bounce: 0.8,
+                    bounce: 0.4,
                   }}
                 />
               </a>

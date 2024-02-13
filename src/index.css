@@ -32,12 +32,12 @@ a {
 :root {
   --background-color: #f6f6f6;
   --foreground-color: #003cff;
-  --primary-text-color: #363636;
+  --primary-text-color: #1E1E1E;
   --secondary-text-color: #C7C7C7;
   --toggle-bg: #f0eb9d;
   --toggle-fg: #ffd000;
-  --hover-color: #00a6ff;
-  --border-color: #a3a3a3d5;
+  --hover-color: #1e1e1e7c;
+  --border-color: #1E1E1E;
 }
 
 [ data-theme="dark"] {

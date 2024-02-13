@@ -1,10 +1,10 @@
 .profile__row {
   display: flex;
   width: 100%;
+  height: 81vh;
 }
 
 .profile__column1 {
-  text-align: center;
   width: 50%;
   border-bottom: 1px solid var(--border-color);
   display: flex;
@@ -23,8 +23,7 @@
 
 .image-cropper {
   overflow: hidden;
-  background-position: center;
-  width: 300px;
+  width: 90vh;
   height: 100%;
   object-fit: contain;
 }
@@ -32,16 +31,14 @@
 .CEO__img {
   width: 100%;
   object-fit: cover;
-  height: 500px;
-  border-radius: 10px;
 }
 
 .CEO__title {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .img__cropper_p {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
