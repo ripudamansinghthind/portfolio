@@ -274,7 +274,7 @@ function App() {
             <Toggle
               isChecked={isDark}
               handleChange={() => setIsDark(!isDark)}
-              icons={{ checked: '🌙', unchecked: '🔆' }}
+              icons={{ checked: '🌕', unchecked: '🌑' }}
             />
           </div>
         </div>

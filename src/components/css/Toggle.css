@@ -1,7 +1,9 @@
+/* toggle button */
+
 .toggle-container {
     position: absolute;
-    top: -1em;
-    right: 0.5em;
+    bottom: 1.6em;
+    right: 2em;
 }
 
 .toggle {
