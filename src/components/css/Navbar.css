@@ -57,7 +57,7 @@
   }
 
   .logo-img:hover {
-    filter: invert(100%);
+    filter: invert(10%);
     transition: filter 0.5s;
   }
 
