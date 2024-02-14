@@ -1,36 +1,35 @@
 .profile__row {
-  display: flex;
   width: 100%;
-  height: 81vh;
+  display: grid;
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+    "profile__column1 profile__column2";
 }
 
 .profile__column1 {
-  width: 50%;
   border-bottom: 1px solid var(--border-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .profile__column2 {
-  width: 50%;
-  align-items: center;
-  text-align: center;
-  white-space: nowrap;
-  border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  color: var(--primary-text-color);
+  text-align: center;
+  justify-content: center;
 }
 
 .image-cropper {
   overflow: hidden;
-  width: 90vh;
-  height: 100%;
+  width: 100%;
   object-fit: contain;
 }
 
 .CEO__img {
   width: 100%;
-  object-fit: cover;
+  height: 80vh;
+  object-fit: contain;
 }
 
 .CEO__title {
@@ -38,7 +37,9 @@
 }
 
 .img__cropper_p {
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -46,29 +47,25 @@
     display: grid; /* Changed to grid */
     grid-template-columns: 1fr; /* Single column in grid */
     grid-template-rows: auto auto; /* Rows for image and columns */
-    gap: 10px; /* Gap between rows and columns */
   }
 
   .image-cropper {
-    overflow: hidden;
-    background-position: center;
-    width: 48vh; /* Full width */
-    height: auto; /* Height auto to maintain aspect ratio */
+    margin-bottom: -50px;
+    padding-bottom: -50px;
   }
 
   .profile__column1 {
-    width: 50%;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--border-color);
   }
 
   .profile__column2 {
-    width: 100%;
     border-left: none;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid var(--border-color);
   }
 
   .CEO__title {
-    margin-top: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
   }
 
   .img__cropper_p {

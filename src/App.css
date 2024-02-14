@@ -204,7 +204,6 @@
 
   .navbar-grid {
     text-align: center;
-    z-index: 999999;
     width: 50vh;
     height: 100vh;
     grid-area: navbar-grid;
