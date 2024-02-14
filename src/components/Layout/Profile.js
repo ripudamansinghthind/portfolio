@@ -26,7 +26,7 @@ function Profile() {
             <h1 className="CEO__title">FELIX THIND</h1>
             <br />
             <div className="img__cropper_text">
-              <p className="img__cropper_p">DEVELOPER @ FENA</p>
+              <p className="img__cropper_p">SOFTWARE DEV</p>
               <br />
               <p className="img__cropper_p">SURREY, BC</p>
               <br />
