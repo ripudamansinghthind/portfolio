@@ -25,6 +25,8 @@ import LinkedInImage from '../src/components/Icons/linkedin.svg';
 import GitHubImage from '../src/components/Icons/github.svg';
 import EmailImage from '../src/components/Icons/mail.svg';
 import Resume from '../src/components/Icons/Felix Thind - No personal.pdf';
+import Darkmodeicon from '../src/components/Icons/darkmodebtn.svg';
+import Lightmodeicon from '../src/components/Icons/lightmodebtn.svg';
 
 function App() {
   //Menu
@@ -274,7 +276,7 @@ function App() {
             <Toggle
               isChecked={isDark}
               handleChange={() => setIsDark(!isDark)}
-              icons={{ checked: '🌕', unchecked: '🌑' }}
+              icons={{ checked: Lightmodeicon, unchecked: Darkmodeicon }}
             />
           </div>
         </div>

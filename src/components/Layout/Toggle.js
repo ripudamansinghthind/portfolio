@@ -11,7 +11,7 @@ export const Toggle = ({ handleChange, isChecked, icons }) => {
         checked={isChecked}
       />
       <label htmlFor="check">
-        {isChecked ? icons.checked : icons.unchecked}
+        <img src={isChecked ? icons.checked : icons.unchecked} alt="toggle" />
       </label>
     </div>
   );
